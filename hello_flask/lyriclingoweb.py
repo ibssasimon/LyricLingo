@@ -34,7 +34,12 @@ with open("../translated_lyrics.txt", "r") as f:
 def index():
     """ Displays the index page accessible at '/'
     """
-    return render_template("test.html", content=songs[1])
+    return render_template("test.html", content=songs, titles=titles)
+
+
+@APP.route('/spanish/')
+def spanish():
+    return render_template('spanish.html', content=songs, titles=titles)
     
 
 
