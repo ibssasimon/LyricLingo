@@ -6,17 +6,17 @@ import re
  
 def main():
     urls = []
-    with open('disney_links.txt','r') as f:
+    with open('original_links.txt','r') as f:
         urls = f.read().split('\n')
     lyrics = []
     for u in urls:
         print("parsing", u)
         x = parse_lyrics(get_html(u))
         lyrics.append(x)
-        with open('disney_lyrics.txt', 'a') as f:
-            f.write(x + "\n\n\n")
+        #with open('disney_lyrics.txt', 'a') as f:
+            #f.write(x + "\n\n\n")
     lyrics = "\n\n\n".join(lyrics)
-    with open('disney_lyrics_all.txt', 'w') as f:
+    with open('original_lyrics.txt', 'w') as f:
         f.write(lyrics)
  
 
