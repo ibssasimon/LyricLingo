@@ -1,4 +1,4 @@
-*["What We Built" lyrics]
+*["What We Built"]
 
 This story is over, it doesn't exist
 What we built one day has vanished
@@ -54,7 +54,7 @@ It takes the wind
 It takes the wind
 
 
-*[Lyrics to "To Me"]
+*["To Me"]
 
 [Enter]
 Skinny-kinny Flakk, yeah (Flakk, yeah, Flakk, yeah)
@@ -147,7 +147,7 @@ To me, to me, to me, to me, to me, hey (Ey-yeah, ey-yeah)
 To me, to me, to me, to me, to me (To me, to me)
 
 
-*[Lyrics to "Bonito"]
+*["Bonito"]
 
 Beautiful, everything seems to me beautiful
 Nice morning, nice place, nice bed
@@ -212,7 +212,7 @@ How beautiful it is, when it is beautiful, how beautiful it is!
 [Outro]
 
 
-*[Lyrics to "Where Are You Heart?"]
+*["Where Are You Heart?"]
 
 [See 1]
 Where are you Love?
@@ -309,7 +309,7 @@ In the magazines
 And on the radio
 
 
-*["We Were So Good" lyrics]
+*["We Were So Good"]
 [Spanish Translation]
 
 [Verse 1]
@@ -392,7 +392,7 @@ You gave me no option, no option
 To save it in time
 
 
-*[Lyrics to "Despacito" ft. Daddy Yankee]
+*["Despacito" ft. Daddy Yankee]
 
 [Intro: Luis Fonsi & Daddy Yankee]
 Oh, Fonsi! D.Y.!
@@ -623,8 +623,7 @@ Oh oh oh
 Oh oh (The pain goes away)
 Oh oh oh oh
 
-
-*["Live My Life" lyrics]
+*["Live My Life"]
 
 
 [Enter]
@@ -696,7 +695,7 @@ I will laugh, I will enjoy
 Live my life lalalala
 
 
-*["We Were So Good" lyrics]
+*["We Were So Good"]
 [Spanish Translation]
 
 [Verse 1]

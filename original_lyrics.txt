@@ -1,4 +1,4 @@
-[Letra de "Lo Que Construimos"]
+*[Letra de "Lo Que Construimos"]
 
 Esta historia terminó, no existe
 Lo que un día construimos se ha esfumado
@@ -54,7 +54,7 @@ Se lo lleva el viento
 Se lo lleva el viento
 
 
-[Letra de “A Mí”]
+*[Letra de “A Mí”]
 
 [Intro]
 Skinny-kinny Flakk, yeah (Flakk, yeah, Flakk, yeah)
@@ -147,7 +147,7 @@ A mí, a mí, a mí, a mí, a mí, ey (Ey-yeah, ey-yeah)
 A mí, a mí, a mí, a mí, a mí (A mí, a mí)
 
 
-[Intro]
+*[Lyrics to "Bonito"]
 
 Bonito... todo me parece bonito
 Bonita mañana, bonito lugar, bonita la cama
@@ -210,7 +210,7 @@ Bonito, todo me parece bonito. [Voz secundaria] ¡Todo me parece bonito!
 [Outro]
 
 
-[Letra de "¿Dónde Estás Corazón?"]
+*[Letra de "¿Dónde Estás Corazón?"]
 
 [Verse 1]
 ¿Donde estás, corazón?
@@ -307,7 +307,7 @@ En las revistas
 Y en la radio
 
 
-[Letra de "Estábamos Tan Bien"]
+*[Letra de "Estábamos Tan Bien"]
 [English Translation]
 
 [Verso 1]
@@ -390,7 +390,7 @@ No me diste opción, ninguna opción
 De salvarlo a tiempo
 
 
-[Letra de "Despacito" ft. Daddy Yankee]
+*[Letra de "Despacito" ft. Daddy Yankee]
 
 [Intro: Luis Fonsi & Daddy Yankee]
 Ay, ¡Fonsi! ¡D.Y.!
@@ -492,7 +492,7 @@ Y que olvides tu apellido (D.Y.)
 Despacito
 
 
-[Letra de "Bailando" ft. Gente De Zona & Descemer Bueno]
+*[Letra de "Bailando" ft. Gente De Zona & Descemer Bueno]
 
 [Intro: Alexander, Randy Marcos]
 He, he, he, he
@@ -616,7 +616,7 @@ Oh oh (Es que se me va el dolor)
 Oh oh oh oh
 
 
-[Letra de "Vivir Mi Vida"]
+*[Letra de "Vivir Mi Vida"]
 
 [Intro]
 Voy a reír, voy a bailar
@@ -686,93 +686,7 @@ Vivir mi vida la la la la
 Voy a reír, voy a gozar
 Vivir mi vida la la la la
 
-
-[Verse]
-When I met you in the summer
-To my heartbeat's sound
-We fell in love as the leaves turned brown
-And we could be together, baby
-As long as skies are blue
-You act so innocent now, but you lied so soon
-When I met you in the summer
-
-[Drop]
-
-[Verse]
-When I met you in the summer
-To my heartbeat's sound
-We fell in love as the leaves turned brown
-And we could be together, baby
-As long as skies are blue
-You act so innocent now, but you lied so soon
-When I met you in the summer
-Summer
-
-[Drop]
-
-[Bridge]
-When I met you in the summer
-Summer
-
-[Drop]
-
-
-[Verse 1]
-I hope you find your way
-Sorry we couldn't make it
-Still, I miss you anyway, yeah
-I just grew and couldn't break it
-
-[Pre-Chorus]
-How I wish perfect was enough
-For my own heart
-Sometimes I swear it was enough
-For my own heart
-
-[Chorus]
-I guess I'll wait another lifetime, oh (ooh, ooh)
-Meet us in another lifetime, oh (ooh, ooh, ooh-ooh-ooh)
-I guess I'll wait another lifetime (ooh, ooh)
-'Cause there I will stay, my darling
-I swear I won't run from you
-
-[Verse 2]
-I know how to make mistakes
-Wasn't grown enough to fake them
-Everybody makes mistakes
-Do we live and learn to brave them?
-
-[Pre-Chorus]
-How I wish I was good enough
-For our own heart
-Don't ever think you weren't enough
-For our own heart
-
-[Chorus]
-I guess I'll wait another lifetime, oh (ooh, ooh)
-Meet us in another lifetime, oh (ooh, ooh, ooh-ooh-ooh)
-I guess I'll wait another lifetime (ooh, ooh)
-'Cause there I will stay, my darling
-I swear I won't run from you
-
-[Bridge]
-I swear I won't run
-Won't run from you, I swear about it
-I swear I won't run
-In another life, I'll keep us bounded
-Oh no, I swear I won't run
-Won't run from you, I swear about it
-I swear I won't run, run
-
-[Chorus]
-I guess I'll wait another lifetime, oh (ooh, ooh)
-Meet me in another lifetime, oh (ooh, ooh, ooh-ooh-ooh)
-I guess I'll wait another lifetime (ooh, ooh)
-'Cause there I will stay, my darling
-I swear I won't run from you
-
-
-[Letra de "Estábamos Tan Bien"]
+*[Letra de "Estábamos Tan Bien"]
 [English Translation]
 
 [Verso 1]
