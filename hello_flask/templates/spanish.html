@@ -10,7 +10,20 @@
     <body>
 
     <h1 id ="title"> Spanish Songs | Lyric Lingo</h1>
-      <pre>{{ titles }}</pre>
+
+    <!-- TODO: DO a fuck ton of CSS-->
+      <ul>
+        <li><pre><a href="{{ url_for('song0')}}">{{ titlesO[0] }}</a></pre></li>
+        <li><pre><a href="{{ url_for('song1')}}">{{ titlesO[1] }}</a></pre></li>
+        <li><pre><a href="{{ url_for('song2')}}">{{ titlesO[2] }}</a></pre></li>
+        <li><pre><a href="{{ url_for('song3')}}">{{ titlesO[3] }}</a></pre></li>
+        <li><pre><a href="{{ url_for('song4')}}">{{ titlesO[4] }}</a></pre></li>
+        <li><pre><a href="{{ url_for('song5')}}">{{ titlesO[5] }}</a></pre></li>
+        <li><pre><a href="{{ url_for('song6')}}">{{ titlesO[6] }}</a></pre></li>
+        <li><pre><a href="{{ url_for('song7')}}">{{ titlesO[7] }}</a></pre></li>
+
+
+      </ul>
 
     </body>
 </html>
