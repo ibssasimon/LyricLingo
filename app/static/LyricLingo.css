@@ -1,0 +1,32 @@
+body {
+	background-image: url("lyriclingobackground2.png");
+	background-size: cover;
+}
+
+@font-face {
+	font-family: Raleway;
+	src: local('Raleway'), url(./Raleway-Regular.ttf) format('truetype');
+}
+
+.header {
+	width: 70%;
+	position: fixed;
+	left: 15%;
+}
+
+#topBar {
+	text-align: left;
+	color: white;
+	font-family: Raleway;
+	font-size: 40px;
+	float: left;
+	margin-left: 40px;
+}
+
+#logo {
+	float: left;
+	width: 75px;
+	height: 75px;
+	padding-top: 10px;
+	padding-left: 10px;
+}
