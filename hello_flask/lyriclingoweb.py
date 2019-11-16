@@ -17,14 +17,24 @@ with open("../translated_lyrics.txt", "r") as f:
         x = song.split("\n")
         titles.append(x[0])
 
+
+    # Formatting title
     for i in range(len(titles)):
         titles[i] = titles[i][:-1]
+
+    # Formatting song lyrics
+    for i in range(len(songs)):
+        songs[i] = songs[i].replace("]", "", 1)
+        
+  
+
+
 
 @APP.route("/")
 def index():
     """ Displays the index page accessible at '/'
     """
-    return render_template("test.html", content=titles)
+    return render_template("test.html", content=songs[1])
     
 
 
