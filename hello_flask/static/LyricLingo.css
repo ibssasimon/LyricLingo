@@ -1,6 +1,6 @@
 body {
 	background-image: url("lyriclingobackground2.png");
-	background-size: cover;
+	background-size: auto;
 }
 
 @font-face {
@@ -10,7 +10,7 @@ body {
 
 .header {
 	width: 70%;
-	position: fixed;
+	position: absolute;
 	left: 15%;
 }
 
@@ -47,6 +47,7 @@ body {
 	font-size: 30px;
 	position: relative;
 	top: 150px;
+	height: 100%;
 }
 
 .buttons {
@@ -78,10 +79,11 @@ body {
 	background-color: #1BB44C;
 }
 
-.visible{
+#visible{
 	top: 180px;
 	position: relative;
 	overflow: hidden;
+	display: none;
 }
 
 #hidden {
@@ -89,6 +91,6 @@ body {
   	height: 100%;
 }
 
-.visible:hover > #hidden{
-  	top: 0;
+#visible > #hidden {
+	top: 0;
 }

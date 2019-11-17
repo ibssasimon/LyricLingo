@@ -9,8 +9,8 @@
 </head>
 <body>
       	<div class="header"> 
-            <img id="logo" src="./static/LyricalLingoLogo.png" alt="LyricLingo logo" />
-            <h1 id ="topBar">LyricLingo</h1>
+            <a href="/"><img id="logo" src="../static/LyricalLingoLogo.png" alt="LyricLingo logo"/></a>
+            <a href="/"><h1 id ="topBar">LyricLingo</h1></a>
       	</div>
 
       	<div class="welcomeMessage">
@@ -20,7 +20,7 @@
       	<div class="langSelector">
       		<p> Begin by choosing your language: </p>
       		<div>
-      			<button class="buttons" id="langButton" type="button">
+      			<button class="buttons" id="langButton" type="button" onclick="myFunction('visible');">
       				English
     			</button>
       			<button class="buttons" id="langButton" type="button">
@@ -38,28 +38,42 @@
     		</div>
     	</div>
 
-    	<div class="visible">
-	    	<div class="langSelector" id="hidden">
-	      		<p> Which language would you like to learn? </p>
-	      		<div>
-	      			<button class="buttons" id="langButton2" type="button">
-	      				English
-	    			</button>
+    	<div id="visible">
+        <div class="langSelector" id="hidden">
+            <p> Which language would you like to learn? </p>
+            <div>
+              <button class="buttons" id="langButton2" type="button">
+                English
+            </button>
                             <a href="{{ url_for('spanish')}}"><button class="buttons" id="langButton2" type="button">
-	      				Spanish
-	    			</button></a>
-	    			<button class="buttons" id="langButton2" type="button">
-	      				French
-	    			</button>
-	    			<button class="buttons" id="langButton2" type="button">
-	      				Japanese
-	    			</button>
-	    			<button class="buttons" id="langButton2" type="button">
-	      				Italian
-	    			</button>
-	    		</div>
-	    	</div>
+                Spanish
+            </button></a>
+            <button class="buttons" id="langButton2" type="button">
+                French
+            </button>
+            <button class="buttons" id="langButton2" type="button">
+                Japanese
+            </button>
+            <button class="buttons" id="langButton2" type="button">
+                Italian
+            </button>
+          </div>
+        </div>
 	    </div>
+
+    <script>
+      var langButton = document.getElementById('langButton');
+      function myFunction(id) {
+        var x = document.getElementById(id);
+        if (x.style.display == 'block') {
+          x.style.display = 'none';
+        } else {
+          x.style.display = 'block';
+        }
+        console.log('clicked');
+        return;
+      }
+    </script>
 
 </body>
 </html>
