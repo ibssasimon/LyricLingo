@@ -48,7 +48,7 @@ with open("../original_lyrics.txt", "r") as f:
     for i in range(len(songsO)):
         songsO[i] = songsO[i].replace("]", "", 1)
         
-    print(titlesO)
+   # print(titlesO)
 
 
 @APP.route("/")
