@@ -1,9 +1,94 @@
 body {
 	background-image: url("lyriclingobackground2.png");
-	background-color: lightblue;
+	background-size: cover;
 }
 
-#title {
+@font-face {
+	font-family: Raleway;
+	src: local('Raleway'), url(./Raleway-Regular.ttf) format('truetype');
+}
+
+.header {
+	width: 70%;
+	position: fixed;
+	left: 15%;
+}
+
+#topBar {
 	text-align: left;
-	color: blue;
+	color: white;
+	font-family: Raleway;
+	font-size: 40px;
+	float: left;
+	margin-left: 40px;
+}
+
+#logo {
+	float: left;
+	width: 75px;
+	height: 75px;
+	padding-top: 10px;
+	padding-left: 10px;
+}
+
+.welcomeMessage {
+	text-align: center;
+	color: white;
+	font-family: Raleway;
+	font-size: 35px;
+	position: relative;
+	top: 130px;
+}
+
+.langSelector {
+	text-align: center;
+	color: white;
+	font-family: Raleway;
+	font-size: 30px;
+	position: relative;
+	top: 150px;
+}
+
+.buttons {
+	-webkit-transition-duration: 0.4s;
+	transition-duration: 0.4s;
+	font-family: Raleway;
+	font-size: 20px;
+	text-align: center;
+	color: white;
+	border: none;
+	width: 100px;
+	height: 40px;
+	border-radius: 4px;
+}
+
+#langButton {
+	background-color: #8147FF;
+}
+
+#langButton:hover {
+	background-color: #6236C0;
+}
+
+#langButton2 {
+	background-color: #27DD61;
+}
+
+#langButton2:hover {
+	background-color: #1BB44C;
+}
+
+.visible{
+	top: 180px;
+	position: relative;
+	overflow: hidden;
+}
+
+#hidden {
+  	transition: all 1.1s ease-out;
+  	height: 100%;
+}
+
+.visible:hover > #hidden{
+  	top: 0;
 }
