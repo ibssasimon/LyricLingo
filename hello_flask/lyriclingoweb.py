@@ -55,44 +55,44 @@ with open("../original_lyrics.txt", "r") as f:
 def index():
     """ Displays the index page accessible at '/'
     """
-    return render_template("index.html", content=songs, titles=titles, songsO=songsO, titlesO=titlesO)
+    return render_template("index.html", content=songs, titles=titles, contentO=songsO, titlesO=titlesO)
 
 
 @APP.route('/spanish/')
 def spanish():
-    return render_template('spanish.html', content=songs, titles=titles, songsO=songsO, titlesO=titlesO)
+    return render_template('spanish.html', content=songs, titles=titles, contentO=songsO, titlesO=titlesO)
 
 @APP.route('/song0/')
 def song0():
-    return render_template('song0.html', content=songs, titles=titles, songsO=songsO, titlesO=titlesO)
+    return render_template('song0.html', content=songs, titles=titles, contentO=songsO, titlesO=titlesO)
     
 @APP.route('/song1/')
 def song1():
-    return render_template('song1.html', content=songs, titles=titles, songsO=songsO, titlesO=titlesO)
+    return render_template('song1.html', content=songs, titles=titles, contentO=songsO, titlesO=titlesO)
     
 @APP.route('/song2/')
 def song2():
-    return render_template('song2.html', content=songs, titles=titles, songsO=songsO, titlesO=titlesO)
+    return render_template('song2.html', content=songs, titles=titles, contentO=songsO, titlesO=titlesO)
     
 @APP.route('/song3/')
 def song3():
-    return render_template('song3.html', content=songs, titles=titles, songsO=songsO, titlesO=titlesO)
+    return render_template('song3.html', content=songs, titles=titles, contentO=songsO, titlesO=titlesO)
 
 @APP.route('/song4/')
 def song4():
-    return render_template('song4.html', content=songs, titles=titles, songsO=songsO, titlesO=titlesO)
+    return render_template('song4.html', content=songs, titles=titles, contentO=songsO, titlesO=titlesO)
 
 @APP.route('/song5/')
 def song5():
-    return render_template('song5.html', content=songs, titles=titles, songsO=songsO, titlesO=titlesO)
+    return render_template('song5.html', content=songs, titles=titles, contentO=songsO, titlesO=titlesO)
     
 @APP.route('/song6/')
 def song6():
-    return render_template('song6.html', content=songs, titles=titles, songsO=songsO, titlesO=titlesO)
+    return render_template('song6.html', content=songs, titles=titles, contentO=songsO, titlesO=titlesO)
     
 @APP.route('/song7/')
 def song7():
-    return render_template('song7.html', content=songs, titles=titles, songsO=songsO, titlesO=titlesO)
+    return render_template('song7.html', content=songs, titles=titles, contentO=songsO, titlesO=titlesO)
     
 
 
