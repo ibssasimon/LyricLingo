@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>English songs</title>
+        <link type="text/css" rel="stylesheet" 
+            href="{{ url_for('static', filename='LyricLingo.css') }}" >
+    </head>
+    
+    <body>
+
+    <h1 id ="title"> English Songs | Lyric Lingo</h1>
+
+    <!-- TODO: DO a fuck ton of CSS-->
+      <ul>
+        <li><pre><a href="{{ url_for('song0E')}}">{{ titles[0] }}</a></pre></li>
+        <li><pre><a href="{{ url_for('song1E')}}">{{ titles[1] }}</a></pre></li>
+        <li><pre><a href="{{ url_for('song2E')}}">{{ titles[2] }}</a></pre></li>
+        <li><pre><a href="{{ url_for('song3E')}}">{{ titles[3] }}</a></pre></li>
+        <li><pre><a href="{{ url_for('song4E')}}">{{ titles[4] }}</a></pre></li>
+        <li><pre><a href="{{ url_for('song5E')}}">{{ titles[5] }}</a></pre></li>
+        <li><pre><a href="{{ url_for('song6E')}}">{{ titles[6] }}</a></pre></li>
+        <li><pre><a href="{{ url_for('song7E')}}">{{ titles[7] }}</a></pre></li>
+
+
+      </ul>
+
+    </body>
+</html>
