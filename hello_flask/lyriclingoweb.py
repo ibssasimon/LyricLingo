@@ -55,7 +55,7 @@ with open("../original_lyrics.txt", "r") as f:
 def index():
     """ Displays the index page accessible at '/'
     """
-    return render_template("test.html", content=songs, titles=titles, songsO=songsO, titlesO=titlesO)
+    return render_template("index.html", content=songs, titles=titles, songsO=songsO, titlesO=titlesO)
 
 
 @APP.route('/spanish/')

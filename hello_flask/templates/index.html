@@ -3,12 +3,63 @@
 <head>
   <meta charset="utf-8" />
   <title>LyricLingo!</title>
+  <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.png') }}" >
   <link type="text/css" rel="stylesheet" 
       href="{{ url_for('static', filename='LyricLingo.css') }}" >
 </head>
 <body>
+      	<div class="header"> 
+            <img id="logo" src="./static/LyricalLingoLogo.png" alt="LyricLingo logo" />
+            <h1 id ="topBar">LyricLingo</h1>
+      	</div>
 
-      <h1 id ="title"> LyricLingo </h1>
+      	<div class="welcomeMessage">
+      		<p> Use the power of music to learn a new language! </p>
+      	</div>
+
+      	<div class="langSelector">
+      		<p> Begin by choosing your language: </p>
+      		<div>
+      			<button class="buttons" id="langButton" type="button">
+      				English
+    			</button>
+      			<a href="{{ url_for('spanish')}}"><button class="buttons" id="langButton" type="button">
+      				Spanish
+    			</button></a>
+    			<button class="buttons" id="langButton" type="button">
+      				French
+    			</button>
+    			<button class="buttons" id="langButton" type="button">
+      				Japanese
+    			</button>
+    			<button class="buttons" id="langButton" type="button">
+      				Italian
+    			</button>
+    		</div>
+    	</div>
+
+    	<div class="visible">
+	    	<div class="langSelector" id="hidden">
+	      		<p> Which language would you like to learn? </p>
+	      		<div>
+	      			<button class="buttons" id="langButton2" type="button">
+	      				English
+	    			</button>
+	      			<button class="buttons" id="langButton2" type="button">
+	      				Spanish
+	    			</button>
+	    			<button class="buttons" id="langButton2" type="button">
+	      				French
+	    			</button>
+	    			<button class="buttons" id="langButton2" type="button">
+	      				Japanese
+	    			</button>
+	    			<button class="buttons" id="langButton2" type="button">
+	      				Italian
+	    			</button>
+	    		</div>
+	    	</div>
+	    </div>
 
 </body>
 </html>
