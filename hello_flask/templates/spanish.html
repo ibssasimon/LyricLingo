@@ -2,25 +2,31 @@
 <html>
     <head>
         <meta charset="utf-8" />
-        <title>Spanish songs</title>
+        <title>LyricLingo!</title>
+        <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.png') }}" >
         <link type="text/css" rel="stylesheet" 
-            href="{{ url_for('static', filename='LyricLingo.css') }}" >
+            href="{{ url_for('static', filename='Spanish.css') }}" >
     </head>
     
     <body>
+      <div class="header"> 
+          <a href="/"><img id="logo" src="../static/LyricalLingoLogo.png" alt="LyricLingo logo"/></a>
+          <a href="/"><h1 id ="topBar">LyricLingo</h1></a>
+      </div>
 
-    <h1 id ="title"> Spanish Songs | Lyric Lingo</h1>
+      <p class="title">Spanish Songs</p>
 
-    <!-- TODO: DO a fuck ton of CSS-->
-      <ul>
-        <li><pre><a href="{{ url_for('song0')}}">{{ titlesO[0] }}</a></pre></li>
-        <li><pre><a href="{{ url_for('song1')}}">{{ titlesO[1] }}</a></pre></li>
-        <li><pre><a href="{{ url_for('song2')}}">{{ titlesO[2] }}</a></pre></li>
-        <li><pre><a href="{{ url_for('song3')}}">{{ titlesO[3] }}</a></pre></li>
-        <li><pre><a href="{{ url_for('song4')}}">{{ titlesO[4] }}</a></pre></li>
-        <li><pre><a href="{{ url_for('song5')}}">{{ titlesO[5] }}</a></pre></li>
-        <li><pre><a href="{{ url_for('song6')}}">{{ titlesO[6] }}</a></pre></li>
-        <li><pre><a href="{{ url_for('song7')}}">{{ titlesO[7] }}</a></pre></li>
+      <p class="subTitle">Choose a song you would like to translate!</p>
+
+      <ul class="songs">
+        <li><pre><a id="songButton" href="{{ url_for('song0')}}">{{ titlesO[0] }}</a></pre></li>
+        <li><pre><a id="songButton" href="{{ url_for('song1')}}">{{ titlesO[1] }}</a></pre></li>
+        <li><pre><a id="songButton" href="{{ url_for('song2')}}">{{ titlesO[2] }}</a></pre></li>
+        <li><pre><a id="songButton" href="{{ url_for('song3')}}">{{ titlesO[3] }}</a></pre></li>
+        <li><pre><a id="songButton" href="{{ url_for('song4')}}">{{ titlesO[4] }}</a></pre></li>
+        <li><pre><a id="songButton" href="{{ url_for('song5')}}">{{ titlesO[5] }}</a></pre></li>
+        <li><pre><a id="songButton" href="{{ url_for('song6')}}">{{ titlesO[6] }}</a></pre></li>
+        <li><pre><a id="songButton" href="{{ url_for('song7')}}">{{ titlesO[7] }}</a></pre></li>
 
 
       </ul>

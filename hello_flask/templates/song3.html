@@ -1,21 +1,31 @@
 <html>
     <head>
         <meta charset="utf-8" />
-        <title>¿Dónde Estás Corazón?/Where Are Your Heart</title>
+        <title>LyricLingo!</title>
+        <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.png') }}" >
         <link type="text/css" rel="stylesheet" 
-            href="{{ url_for('static', filename='LyricLingo.css') }}" >
+            href="{{ url_for('static', filename='Song.css') }}" >
     </head>
     
     <body>
+        <div class="header"> 
+            <a href="/"><img id="logo" src="../static/LyricalLingoLogo.png" alt="LyricLingo logo"/></a>
+            <a href="/"><h1 id ="topBar">LyricLingo</h1></a>
+        </div>
 
-    <h1 id ="title">¿Dónde Estás Corazón?/Where Are Your Heart</h1>
+        <p class="title">¿Dónde Estás Corazón?/Where Are Your Heart</p>
 
-   <table>
-        <tr>
-            <td><pre>{{contentO[3]}}</pre></td>
-            <td> &nbsp</td>
-            <td><pre>{{content[3]}}</pre></td>
-        </tr>
-    </table>
+        <div class="bothSongs">
+            <div>
+                <p id="songHeader"> Original: </p> 
+                <pre id="songLyrics">{{contentO[3]}}</pre>
+            </div>
+            <div>
+                <p id="songHeader"> Translated to: </p>
+                <pre id="songLyrics">{{content[3]}}</pre>
+            </div>
+        </div>
+
+
     </body>
 </html>
