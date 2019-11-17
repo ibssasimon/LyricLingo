@@ -1,16 +1,130 @@
 <html>
     <head>
         <meta charset="utf-8" />
-        <title>¿Dónde Estás Corazón?/Where Are Your Heart</title>
+        <title>LyricLingo!</title>
+        <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.png') }}" >
         <link type="text/css" rel="stylesheet" 
-            href="{{ url_for('static', filename='LyricLingo.css') }}" >
+            href="{{ url_for('static', filename='Song.css') }}" >
     </head>
     
     <body>
+        <div class="header"> 
+            <a href="/"><img id="logo" src="../static/LyricalLingoLogo.png" alt="LyricLingo logo"/></a>
+            <a href="/"><h1 id ="topBar">LyricLingo</h1></a>
+        </div>
 
-    <h1 id ="title">¿Dónde Estás Corazón?/Where Are Your Heart</h1>
+        <p class="title">¿Dónde Estás Corazón?/Where Are Your Heart</p>
 
-    <pre>{{ content[3]}}</pre>
+        <div class="bothSongs">
+            <div>
+                <p id="songHeader"> Original: </p> 
+                <pre id="songLyrics">{{contentO[3]}}</pre>
+            </div>
+            <div>
+                <p id="songHeader"> Translated to: </p>
+                <pre id="songLyrics">""Where Are You Heart?"
+
+        [See 1]
+        Where are you Love?
+        Yesterday I looked for you
+        Between the grud, n the sky, my sky
+        And i didn't find you can think you're running from me
+        Because my silence a hunch
+        He says yes
+        &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+        &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+        Where are you Love?"</pre>
+            <form style="margin-bottom:-45px; margin-top:-20px"> 
+        &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+            <input type="text" name="yourtranslation"><br>
+        </form>
+        <pre id="songLyrics">
+        &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
+        "That life becomes an eight
+        If you're not here
+        And I want to think (and I want to think)
+        That it will not takethat it will not take)
+        Because on the planet there is no
+        No one else I can ve
+
+        [Chorus]
+        Where are you Love?
+        Yesterday I looked for you
+        Where are you Love?
+        And i didn't find you
+
+        [See 2]
+        Where are you Love?
+        You got out of here
+        Oh, looking for who kws what things
+        So far away from me
+        And i can think
+        And I think again
+        That it won't take (won't take)
+        Because on the planet
+        There is no one else
+        Who can I love
+
+        [Chorus]
+        Where a you Love?
+        Yesterday I looked for you
+        Where are you Love?
+        And i didn't find you
+
+        [Bridge]
+        I looked for you
+        In the closet
+        In the alphabeUnder the car
+        In the black, in the white
+        In the history books
+        In the magazines
+        And onhe dio
+        I looked for you in the streets
+        Whe your mother
+        In Botero's paintings
+        In my purse
+        In two thousand religions
+        I lood for you until
+        In my songs
+
+        [Chorus]
+        Where are you Love?
+        Yesterday I looked for you
+        Where are you Love?
+        And didn't find you
+
+        [Outro]
+        I looked for you
+        In the closet
+        In the alphabet
+        Under t car
+        In the black, in the white
+        In the history books
+        In the magazines
+        And on the radio
+        lood for you in the streets
+        Where youmother
+        In Botero's paintings
+        In my purse
+        In two thousand religions
+        I looked for o until
+        In my songs
+
+        Where are you Love?
+        Yesterday I looked for you
+
+        I looked foyou
+        In the closet
+        In the alphabet
+        Under the car
+        In the black, in the white
+        In the history books
+        In the magazines
+        And on the radio"
+    </pre>
+            </div>
+        </div>
+
 
     </body>
 </html>

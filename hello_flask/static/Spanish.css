@@ -1,0 +1,75 @@
+body {
+	background-image: url("lyriclingobackground2.png");
+	background-size: auto;
+}
+
+@font-face {
+	font-family: Raleway;
+	src: local('Raleway'), url(./Raleway-Regular.ttf) format('truetype');
+}
+
+.header {
+	width: 70%;
+	position: absolute;
+	left: 15%;
+}
+
+#topBar {
+	text-align: left;
+	color: white;
+	font-family: Raleway;
+	font-size: 40px;
+	float: left;
+	margin-left: 40px;
+}
+
+#logo {
+	float: left;
+	width: 75px;
+	height: 75px;
+	padding-top: 10px;
+	padding-left: 10px;
+}
+
+.title {
+    position: fixed;
+    top: 10%;
+    width: 50%;
+    left: 25%;
+    font-family: Raleway;
+    font-size: 35px;
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.subTitle {
+    position: fixed;
+    top: 20%;
+    left: 30%;
+    font-family: Raleway;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+
+.songs {
+    position: fixed;
+    top: 32%;
+    list-style: none;
+    width: 50%;
+    left: 23%;
+    text-align: center;
+}
+
+#songButton {
+    color: white;
+    text-decoration: none;
+    font-family: Raleway;
+    font-size: 25px;
+    background-color: #8147FF;
+    border-radius: 5px;
+    padding: 5px;
+    display: block;
+    margin-top: 10px;
+}

@@ -1,0 +1,63 @@
+body {
+	background-image: url("lyriclingobackground2.png");
+	background-size: auto;
+}
+
+@font-face {
+	font-family: Raleway;
+	src: local('Raleway'), url(./Raleway-Regular.ttf) format('truetype');
+}
+
+.header {
+	width: 70%;
+	position: absolute;
+	left: 15%;
+}
+
+#topBar {
+	text-align: left;
+	color: white;
+	font-family: Raleway;
+	font-size: 40px;
+	float: left;
+	margin-left: 40px;
+}
+
+#logo {
+	float: left;
+	width: 75px;
+	height: 75px;
+	padding-top: 10px;
+	padding-left: 10px;
+}
+
+.title {
+    position: relative;
+    top: 120px;
+    font-family: Raleway;
+    font-size: 35px;
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.bothSongs {
+    position: absolute;
+    top: 32%;
+    left: 17%;
+    display: flex;
+}
+
+#songLyrics {
+    font-family: Raleway;
+    font-size: 22px;
+    padding-right: 20px;
+    flex: 1;
+}
+
+#songHeader {
+    font-family: Raleway;
+    font-size: 30px;
+    color: white;
+    text-decoration: underline;
+}

@@ -38,27 +38,27 @@
     		</div>
     	</div>
 
-    	<div id="visible">
-        <div class="langSelector" id="hidden">
-            <p> Which language would you like to learn? </p>
-            <div>
-              <button class="buttons" id="langButton2" type="button">
-                English
-            </button>
-                            <a href="{{ url_for('spanish')}}"><button class="buttons" id="langButton2" type="button">
-                Spanish
-            </button></a>
-            <button class="buttons" id="langButton2" type="button">
-                French
-            </button>
-            <button class="buttons" id="langButton2" type="button">
-                Japanese
-            </button>
-            <button class="buttons" id="langButton2" type="button">
-                Italian
-            </button>
-          </div>
-        </div>
+   	<div class="visible">
+	    	<div class="langSelector" id="hidden">
+	      		<p> Which language would you like to learn? </p>
+	      		<div>
+	      			<a href="{{ url_for('english')}}"><button class="buttons" id="langButton2" type="button">
+	      				English
+	    			</button></a>
+              <a href="{{ url_for('spanish')}}"><button class="buttons" id="langButton2" type="button">
+	      				Spanish
+	    			</button></a>
+	    			<button class="buttons" id="langButton2" type="button">
+	      				French
+	    			</button>
+	    			<button class="buttons" id="langButton2" type="button">
+	      				Japanese
+	    			</button>
+	    			<button class="buttons" id="langButton2" type="button">
+	      				Italian
+	    			</button>
+	    		</div>
+	    	</div>
 	    </div>
 
     <script>
