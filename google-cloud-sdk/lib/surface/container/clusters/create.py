@@ -252,7 +252,7 @@ def ParseCreateOptionsBase(args):
       enable_kubernetes_alpha=args.enable_kubernetes_alpha,
       enable_cloud_run_alpha=args.enable_cloud_run_alpha if args.IsSpecified('enable_cloud_run_alpha') else None,
       enable_legacy_authorization=args.enable_legacy_authorization,
-      enable_master_authorized_networks=args.enable_master_authorized_networks,
+      enable_main_authorized_networks=args.enable_main_authorized_networks,
       enable_network_policy=args.enable_network_policy,
       enable_private_nodes=args.enable_private_nodes,
       enable_private_endpoint=args.enable_private_endpoint,
@@ -267,8 +267,8 @@ def ParseCreateOptionsBase(args):
       maintenance_window_start=args.maintenance_window_start,
       maintenance_window_end=args.maintenance_window_end,
       maintenance_window_recurrence=args.maintenance_window_recurrence,
-      master_authorized_networks=args.master_authorized_networks,
-      master_ipv4_cidr=args.master_ipv4_cidr,
+      main_authorized_networks=args.main_authorized_networks,
+      main_ipv4_cidr=args.main_ipv4_cidr,
       max_nodes=args.max_nodes,
       max_nodes_per_pool=args.max_nodes_per_pool,
       min_cpu_platform=args.min_cpu_platform,
@@ -337,7 +337,7 @@ class Create(base.CreateCommand):
     flags.AddLabelsFlag(parser)
     flags.AddLocalSSDFlag(parser)
     flags.AddMaintenanceWindowGroup(parser)
-    flags.AddMasterAuthorizedNetworksFlags(parser)
+    flags.AddMainAuthorizedNetworksFlags(parser)
     flags.AddMinCpuPlatformFlag(parser)
     flags.AddNetworkPolicyFlags(parser)
     flags.AddNodeTaintsFlag(parser)
@@ -383,12 +383,12 @@ class Create(base.CreateCommand):
     options = self.ParseCreateOptions(args)
 
     if options.private_cluster and not (
-        options.enable_master_authorized_networks or
-        options.master_authorized_networks):
+        options.enable_main_authorized_networks or
+        options.main_authorized_networks):
       log.warning(
-          '`--private-cluster` makes the master inaccessible from '
+          '`--private-cluster` makes the main inaccessible from '
           'cluster-external IP addresses, by design. To allow limited '
-          'access to the master, see the `--master-authorized-networks` flags '
+          'access to the main, see the `--main-authorized-networks` flags '
           'and our documentation on setting up private clusters: '
           'https://cloud.google.com'
           '/kubernetes-engine/docs/how-to/private-clusters')
@@ -484,7 +484,7 @@ class CreateBeta(Create):
     flags.AddLabelsFlag(parser)
     flags.AddLocalSSDFlag(parser)
     flags.AddMaintenanceWindowGroup(parser)
-    flags.AddMasterAuthorizedNetworksFlags(parser)
+    flags.AddMainAuthorizedNetworksFlags(parser)
     flags.AddMinCpuPlatformFlag(parser)
     flags.AddWorkloadMetadataFromNodeFlag(parser)
     flags.AddNetworkPolicyFlags(parser)
@@ -552,7 +552,7 @@ class CreateAlpha(Create):
     flags.AddLabelsFlag(parser)
     flags.AddLocalSSDAndLocalSSDVolumeConfigsFlag(parser)
     flags.AddMaintenanceWindowGroup(parser)
-    flags.AddMasterAuthorizedNetworksFlags(parser)
+    flags.AddMainAuthorizedNetworksFlags(parser)
     flags.AddMinCpuPlatformFlag(parser)
     flags.AddWorkloadMetadataFromNodeFlag(parser)
     flags.AddNetworkPolicyFlags(parser)
@@ -597,7 +597,7 @@ class CreateAlpha(Create):
     ops.private_cluster = args.private_cluster
     ops.enable_private_nodes = args.enable_private_nodes
     ops.enable_private_endpoint = args.enable_private_endpoint
-    ops.master_ipv4_cidr = args.master_ipv4_cidr
+    ops.main_ipv4_cidr = args.main_ipv4_cidr
     ops.enable_tpu_service_networking = args.enable_tpu_service_networking
     ops.istio_config = args.istio_config
     ops.enable_managed_pod_identity = args.enable_managed_pod_identity
